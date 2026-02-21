@@ -1,0 +1,288 @@
+body {
+  font-family:sans-serif, Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS'; 
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+footer {
+  background-color: #f1f1f1;
+}
+
+
+/*********************************navbar*************************************/
+.navbar {
+  background-color: #e87848;
+}
+
+a.navbar-brand {
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+div.offcanvas-body {
+  background-color: #e87848;
+}
+
+a.navbar-title {
+  text-decoration: none;
+  color: inherit;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-weight: 1000;
+}
+
+/* ******************************main image**********************************/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 1000;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+
+div.col-sm-12 {
+  position: relative
+}
+
+/******************************portraits********************************/
+div.portrait{
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+/******************************weddings********************************/
+div.wedding{
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+/******************************events********************************/
+div.event{
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+/***************************responsive text************************/
+
+@media screen and (min-width: 991.5px) {
+  /****home page**/
+  a.navbar-brand {
+    font-size: 18px;
+  }
+  a.navbar-title {
+    font-size: 25px;
+  }
+  .centered {
+    font-size: 47px;
+  }
+  div.portrait {
+    font-size: 45px;
+  }
+  div.wedding {
+    font-size: 45px;
+  }
+  div.event {
+    font-size: 45px;
+  }
+  /****Gallery*****/
+  .pgalhead {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 991.5px) {
+  a.navbar-brand {
+    font-size: 18px;
+  }
+  a.navbar-title {
+    font-size: 25px;
+  }
+  .centered {
+    font-size: 27px;
+  }
+  div.portrait {
+    font-size: 25px;
+  }
+  div.wedding {
+    font-size: 25px;
+  }
+  div.event {
+    font-size: 25px;
+  }
+  /****Gallery*****/
+  .pgalhead {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  a.navbar-brand {
+    font-size: 13px;
+  }
+  a.navbar-title {
+    font-size: 20px;
+  }
+  .centered {
+    font-size: 25px;
+  }
+  div.portrait {
+    font-size: 23px;
+  }
+  div.wedding {
+    font-size: 23px;
+  }
+  div.event {
+    font-size: 23px;
+  }
+  /****Gallery*****/
+  .pgalhead {
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  a.navbar-brand {
+    font-size: 11px;
+  }
+  a.navbar-title {
+    font-size: 17px;
+  }
+  .centered {
+    font-size: 20px;
+  }
+  div.portrait {
+    font-size: 18px;
+  }
+  div.wedding {
+    font-size: 18px;
+  }
+  div.event {
+    font-size: 18px;
+  }
+  /****Gallery*****/
+  .pgalhead {
+    font-size: 15px;
+  }
+}
+
+
+.pgalhead {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: 1000;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+/************gallery***********/
+.pgalitems {
+  width: 400px;
+  height: auto; 
+}
+
+/***********packages*******/
+.package {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.package h2 {
+  margin-top: 0;
+}
+
+.package p {
+  margin: 8px 0;
+}
+
+.main-text {
+  text-align: center;
+  font-size: 100%;
+}
+
+.p-cont {
+  margin-top: 85px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  padding: 10px;
+}
+
+.add-ser {
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.add-ser-li {
+  margin-bottom: 70px;
+}
+
+/*about*/
+.abt-cont {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  align-items: baseline;
+  font-size: 15pt;
+}
+.photo-malc {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.photo-malc img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+.abt-head2 {
+  color: #333;
+  border-bottom: 2px solid #f4f4f4;
+  padding-bottom: 5px;
+}
+.contact-link {
+  color: #007BFF;
+  text-decoration: none;
+}
+.contact-link:hover {
+  text-decoration: underline;
+}
+.abt-ul {
+  text-align: center;
+}
+.abt-ul ul {
+  display: inline-block;
+  text-align: left; /* Align text inside the list items to the left */
+}
+
+
+
