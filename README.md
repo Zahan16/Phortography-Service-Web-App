@@ -4,13 +4,13 @@ This is a web app created for the photographer Malcolm to showcase his portfolio
 
 ## Tech Stack
 
-Front-end
+### Front-end
 - HTML
 - CSS
 - Framework: Bootstrap
 - JavaScript
 
-Back-end
+### Back-end
 - PHP
 - RDBMS: MySQL
 - Local Server: XAMPP
